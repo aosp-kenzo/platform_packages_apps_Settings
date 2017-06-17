@@ -15,14 +15,7 @@
 -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
-    <!-- Bluetooth settings. A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
-    <string name="bluetooth_accept_all_files">Accept all file types</string>
-    
-    <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
-    <string name="local_backup_password_title">Desktop backup password</string>
-
-    <!-- Buttons -->
+ <!-- Buttons -->
     <string name="buttons_pref_title">Buttons</string>
     <string name="buttons_pref_summary">Tweak the actions of your phones physical buttons</string>
     <string name="enable_navigation_bar_title">Enable software keys</string>
