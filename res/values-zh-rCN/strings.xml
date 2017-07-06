@@ -3263,4 +3263,9 @@
         <!-- About phone screen, build date of ROM -->
     <string name="maintainer">维护者</string>
     <string name="build_date">编译日期</string>
+
+    <!-- About phone screen, processor info label  [CHAR LIMIT=40] -->
+    <string name="processor_info">处理器</string>
+    <!-- RAM: Memory Info -->
+    <string name="mem_info">内存</string>
 </resources>
