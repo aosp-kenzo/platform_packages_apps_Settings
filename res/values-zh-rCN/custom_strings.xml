@@ -40,4 +40,9 @@
     <string name="hardware_keys_action_launch_camera">打开相机</string>
     <string name="hardware_keys_action_last_app">切换到最近一个应用</string>
 
+    <!-- About phone screen, processor info label  [CHAR LIMIT=40] -->
+    <string name="processor_info">处理器</string>
+    <!-- RAM: Memory Info -->
+    <string name="mem_info">内存</string>
+
 </resources>
