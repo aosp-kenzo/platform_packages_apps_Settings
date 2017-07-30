@@ -45,4 +45,9 @@
     <!-- RAM: Memory Info -->
     <string name="mem_info">内存</string>
 
+
+    <!-- About phone screen, build date of ROM -->
+    <string name="maintainer">维护者</string>
+    <string name="build_date">编译日期</string>
+
 </resources>

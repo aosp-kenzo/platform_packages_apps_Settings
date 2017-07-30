@@ -78,6 +78,8 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String KEY_EQUIPMENT_ID = "fcc_equipment_id";
     private static final String PROPERTY_EQUIPMENT_ID = "ro.ril.fccid";
     private static final String KEY_DEVICE_FEEDBACK = "device_feedback";
+    private static final String KEY_BUILD_DATE = "build_date";
+    private static final String KEY_MAINTAINER = "maintainer";    
     private static final String KEY_SAFETY_LEGAL = "safetylegal";
     private static final String KEY_DEVICE_MEMORY = "device_memory";
     private static final String KEY_DEVICE_PROCESSOR = "device_processor";
@@ -129,6 +131,8 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         setStringSummary(KEY_BUILD_NUMBER, Build.DISPLAY);
         findPreference(KEY_BUILD_NUMBER).setEnabled(true);
         findPreference(KEY_KERNEL_VERSION).setSummary(DeviceInfoUtils.getFormattedKernelVersion());
+        setValueSummary(KEY_BUILD_DATE, "ro.build.date");
+        setValueSummary(KEY_MAINTAINER, "ro.maintainer");
         setStringSummary(KEY_DEVICE_MEMORY, getDeviceMemoryInfo());
         setStringSummary(KEY_DEVICE_PROCESSOR, getDeviceProcessorInfo());
 
