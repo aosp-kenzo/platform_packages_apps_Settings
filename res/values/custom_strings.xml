@@ -49,6 +49,9 @@
 
     <!-- About phone screen, build date of ROM -->
     <string name="maintainer">Maintainer</string>
+    <string name="maintainer_default">DoveKi</string>
     <string name="build_date">Build date</string>
+    <string name="build_date_default">2017-01-01-0000</string>
 
 </resources>
+
