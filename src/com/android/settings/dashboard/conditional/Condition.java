@@ -22,7 +22,6 @@ import android.graphics.drawable.Icon;
 import android.os.PersistableBundle;
 import com.android.internal.logging.MetricsLogger;
 import com.android.internal.logging.MetricsProto.MetricsEvent;
-import android.provider.Settings;
 
 import static android.content.pm.PackageManager.DONT_KILL_APP;
 
@@ -127,9 +126,7 @@ public abstract class Condition {
     }
 
     public boolean shouldShow() {
-            return isActive() && !isSilenced()
-                   && ((Settings.System.getInt(mManager.getContext().getContentResolver(),
-                   Settings.System.ENABLE_CONDITIONS, 1) == 1));
+        return isActive() && !isSilenced();
     }
 
     long getLastChange() {
